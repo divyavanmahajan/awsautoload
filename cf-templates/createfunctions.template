@@ -1,0 +1,509 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Metadata": {
+    "AWS::CloudFormation::Designer": {
+      "701c4b95-75ef-4d20-87e1-dbee7fa912c2": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 90,
+          "y": 120
+        },
+        "z": 1,
+        "embeds": []
+      },
+      "0c3684ca-4e1d-473e-a1ec-e79ecb44ace4": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 210,
+          "y": 120
+        },
+        "z": 1,
+        "embeds": [],
+        "isassociatedwith": [
+          "701c4b95-75ef-4d20-87e1-dbee7fa912c2"
+        ],
+        "dependson": [
+          "701c4b95-75ef-4d20-87e1-dbee7fa912c2"
+        ]
+      },
+      "4c8e82b7-c773-4416-93d1-70589f509afd": {
+        "source": {
+          "id": "0c3684ca-4e1d-473e-a1ec-e79ecb44ace4"
+        },
+        "target": {
+          "id": "701c4b95-75ef-4d20-87e1-dbee7fa912c2"
+        },
+        "z": 1
+      },
+      "b8c2e240-df89-4adb-bbef-5559277bc78d": {
+        "source": {
+          "id": "42613a52-4b19-4248-bb0f-3af69ef8f41f"
+        },
+        "target": {
+          "id": "701c4b95-75ef-4d20-87e1-dbee7fa912c2"
+        },
+        "z": 11
+      },
+      "78af5b6b-cb7e-4855-bbcf-46aca700c896": {
+        "source": {
+          "id": "d31fd8d1-8bd4-4d78-b2aa-d4da36c01344"
+        },
+        "target": {
+          "id": "701c4b95-75ef-4d20-87e1-dbee7fa912c2"
+        },
+        "z": 11
+      },
+      "a310e9c9-b21d-4a08-945d-45188a1fb6d8": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": -30,
+          "y": 120
+        },
+        "z": 1,
+        "embeds": [],
+        "dependson": [
+          "701c4b95-75ef-4d20-87e1-dbee7fa912c2"
+        ],
+        "isrelatedto": [
+          "701c4b95-75ef-4d20-87e1-dbee7fa912c2"
+        ]
+      },
+      "d8d7f564-0e5d-48e9-aa26-2d5ee27973c3": {
+        "source": {
+          "id": "a310e9c9-b21d-4a08-945d-45188a1fb6d8"
+        },
+        "target": {
+          "id": "701c4b95-75ef-4d20-87e1-dbee7fa912c2"
+        },
+        "z": 2
+      },
+      "e4f5f099-9630-43df-91cf-3867c71b72ae": {
+        "source": {
+          "id": "a9633164-e06d-40e2-9287-a5f008ee0288"
+        },
+        "target": {
+          "id": "a310e9c9-b21d-4a08-945d-45188a1fb6d8"
+        },
+        "z": 2
+      },
+      "c7a0fce7-8892-4530-8e9c-ad692dfb9e55": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": -30,
+          "y": 220
+        },
+        "z": 0,
+        "embeds": [],
+        "isassociatedwith": [
+          "a310e9c9-b21d-4a08-945d-45188a1fb6d8"
+        ],
+        "dependson": [
+          "a310e9c9-b21d-4a08-945d-45188a1fb6d8"
+        ],
+        "isrelatedto": [
+          "a9633164-e06d-40e2-9287-a5f008ee0288"
+        ]
+      },
+      "5d453fd7-a408-4125-a6a5-ad4beb0cb2e6": {
+        "source": {
+          "id": "c7a0fce7-8892-4530-8e9c-ad692dfb9e55"
+        },
+        "target": {
+          "id": "a9633164-e06d-40e2-9287-a5f008ee0288"
+        },
+        "z": 11
+      },
+      "6cbfc61a-453d-45de-8181-e63de24928df": {
+        "source": {
+          "id": "c7a0fce7-8892-4530-8e9c-ad692dfb9e55"
+        },
+        "target": {
+          "id": "a310e9c9-b21d-4a08-945d-45188a1fb6d8"
+        },
+        "z": 12
+      },
+      "53eae0d4-6298-448f-8628-b7cb8bb67e27": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 90,
+          "y": 220
+        },
+        "z": 1,
+        "embeds": [],
+        "dependson": [
+          "701c4b95-75ef-4d20-87e1-dbee7fa912c2"
+        ],
+        "isrelatedto": [
+          "701c4b95-75ef-4d20-87e1-dbee7fa912c2"
+        ]
+      },
+      "a9a9b5e9-cc8e-404a-8dc0-adf3ecda6b37": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": -320,
+          "y": 110
+        },
+        "z": 1,
+        "embeds": []
+      },
+      "421762ab-1158-4fc9-8c2e-0eeb8fcc5861": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": -320,
+          "y": 180
+        },
+        "z": 1,
+        "embeds": []
+      }
+    }
+  },
+  "Resources": {
+    "lambdaAWSLoaderPolicy": {
+      "Type": "AWS::IAM::Policy",
+      "Properties": {
+        "PolicyName": "lambda_aws_loader_policy",
+        "Roles": [
+          {
+            "Ref": "lambdaAWSLoaderRole"
+          }
+        ],
+        "PolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Sid": "Stmt1424787824000",
+              "Effect": "Allow",
+              "Action": [
+                "dynamodb:DeleteItem",
+                "dynamodb:DescribeTable",
+                "dynamodb:GetItem",
+                "dynamodb:ListTables",
+                "dynamodb:PutItem",
+                "dynamodb:Query",
+                "dynamodb:Scan",
+                "dynamodb:UpdateItem",
+                "logs:CreateLogGroup",
+                "logs:CreateLogStream",
+                "logs:PutLogEvents",
+                "ec2:CreateNetworkInterface",
+                "ec2:DescribeNetworkInterfaces",
+                "ec2:DeleteNetworkInterface",
+                "sns:GetEndpointAttributes",
+                "sns:GetSubscriptionAttributes",
+                "sns:GetTopicAttributes",
+                "sns:ListTopics",
+                "sns:Publish",
+                "sns:Subscribe",
+                "sns:Unsubscribe",
+                "s3:Get*",
+                "s3:Put*",
+                "s3:List*",
+                "kms:Decrypt",
+                "kms:DescribeKey",
+                "kms:GetKeyPolicy"
+              ],
+              "Resource": [
+                "*"
+              ]
+            },
+            {
+              "Effect": "Allow",
+              "Action": [
+                "logs:*"
+              ],
+              "Resource": [
+                "arn:aws:logs:*:*:*"
+              ]
+            },
+            {
+              "Effect": "Allow",
+              "Action": [
+                "ec2:Describe*",
+                "ec2:CreateSnapshot",
+                "ec2:DeleteSnapshot",
+                "ec2:CreateTags",
+                "ec2:ModifySnapshotAttribute",
+                "ec2:ResetSnapshotAttribute"
+              ],
+              "Resource": [
+                "*"
+              ]
+            }
+          ]
+        }
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "0c3684ca-4e1d-473e-a1ec-e79ecb44ace4"
+        }
+      },
+      "DependsOn": [
+        "lambdaAWSLoaderRole"
+      ],
+      "DeletionPolicy": "Delete"
+    },
+    "lambdaAWSLoaderRole": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Principal": {
+                "Service": [
+                  "lambda.amazonaws.com"
+                ]
+              },
+              "Action": [
+                "sts:AssumeRole"
+              ]
+            }
+          ]
+        },
+        "Path": "/"
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "701c4b95-75ef-4d20-87e1-dbee7fa912c2"
+        }
+      },
+      "DeletionPolicy": "Delete"
+    },
+    "lambdaAWSLoader": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "FunctionName": "lambdaAWSLoader",
+        "Runtime": "nodejs4.3",
+        "Role": {
+          "Fn::GetAtt": [
+            "lambdaAWSLoaderRole",
+            "Arn"
+          ]
+        },
+        "Handler": "index.handler",
+        "Code": {
+          "S3Bucket": {
+            "Ref": "LambdaZipBucket"
+          },
+          "S3Key": {
+            "Ref": "AWSLoaderZip"
+          }
+        },
+        "Description": "AWS Lambda Redshift loader - see https://github.com/awslabs/aws-lambda-redshift-loader",
+        "Timeout": 300,
+        "MemorySize": 512
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "a310e9c9-b21d-4a08-945d-45188a1fb6d8"
+        }
+      },
+      "DependsOn": [
+        "lambdaAWSLoaderRole"
+      ]
+    },
+    "S3PermissionForLambda": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:invokeFunction",
+        "FunctionName": {
+          "Ref": "lambdaAWSLoader"
+        },
+        "Principal": "s3.amazonaws.com",
+        "SourceAccount": {
+          "Ref": "AWS::AccountId"
+        },
+        "SourceArn": {
+          "Fn::Join": [
+            ":",
+            [
+              "arn",
+              "aws",
+              "s3",
+              "",
+              "",
+              "*"
+            ]
+          ]
+        }
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "c7a0fce7-8892-4530-8e9c-ad692dfb9e55"
+        }
+      },
+      "DependsOn": [
+        "lambdaAWSLoader"
+      ]
+    },
+    "lambdaSFDCExtractor": {
+      "Type": "AWS::Lambda::Function",
+      "Properties": {
+        "FunctionName": "lambdaSFDCExtractor",
+        "Runtime": "nodejs4.3",
+        "Role": {
+          "Fn::GetAtt": [
+            "lambdaAWSLoaderRole",
+            "Arn"
+          ]
+        },
+        "Handler": "index.handler",
+        "Code": {
+          "S3Bucket": {
+            "Ref": "LambdaZipBucket"
+          },
+          "S3Key": {
+            "Ref": "SFDCLoaderZip"
+          }
+        },
+        "Description": "SFDC Report downloader Lambda function.",
+        "Timeout": 300,
+        "MemorySize": 1408
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "53eae0d4-6298-448f-8628-b7cb8bb67e27"
+        }
+      },
+      "DependsOn": [
+        "lambdaAWSLoaderRole"
+      ]
+    },
+    "SNSOkay": {
+      "Type": "AWS::SNS::Topic",
+      "Properties": {
+        "DisplayName": {
+          "Fn::Join": [
+            "",
+            [
+              {
+                "Ref": "TopicPrefix"
+              },
+              "-ok"
+            ]
+          ]
+        },
+        "TopicName": {
+          "Fn::Join": [
+            "",
+            [
+              {
+                "Ref": "TopicPrefix"
+              },
+              "-ok"
+            ]
+          ]
+        }
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "a9a9b5e9-cc8e-404a-8dc0-adf3ecda6b37"
+        }
+      }
+    },
+    "SNSFail": {
+      "Type": "AWS::SNS::Topic",
+      "Properties": {
+        "DisplayName": {
+          "Fn::Join": [
+            "",
+            [
+              {
+                "Ref": "TopicPrefix"
+              },
+              "-fail"
+            ]
+          ]
+        },
+        "TopicName": {
+          "Fn::Join": [
+            "",
+            [
+              {
+                "Ref": "TopicPrefix"
+              },
+              "-fail"
+            ]
+          ]
+        }
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "421762ab-1158-4fc9-8c2e-0eeb8fcc5861"
+        }
+      }
+    }
+  },
+  "Parameters": {
+    "LambdaZipBucket": {
+      "Description": "S3 bucket where the ZIP files for the Lambda function are stored.",
+      "Type": "String",
+      "Default": "testbucket-loader-code"
+    },
+    "AWSLoaderZip": {
+      "Description": "S3 key (path and file) of the ZIP files to setup the AWS Redshift Loader lambda function. Default is AWSLambdaRedshiftLoader-2.4.0.zip at the root of the bucket.",
+      "Type": "String",
+      "Default": "AWSLambdaRedshiftLoader.zip"
+    },
+    "SFDCLoaderZip": {
+      "Description": "S3 key (path and file) of the ZIP files to setup the SFDC Report downloader lambda function. Default is AWSLambdaRedshiftLoader-2.4.0.zip at the root of the bucket.",
+      "Type": "String",
+      "Default": "SFDCExtractorLambda.zip"
+    },
+    "TopicPrefix": {
+      "Description": "5 letter prefix for the SNS (Simple Notification Service) topic name, -ok and -fail are appended to create 2 SNS topics for success and failure of a AWS Lambda Loader. Default prefix is load",
+      "Type": "String",
+      "Default": "load"
+    }
+  },
+  "Outputs": {
+    "SNSOkayTopicARN": {
+      "Value": {
+        "Ref": "SNSOkay"
+      }
+    },
+    "SNSFailTopicARN": {
+      "Value": {
+        "Ref": "SNSFail"
+      }
+    },
+    "LambdaLoaderFunction": {
+      "Value": {
+        "Fn::GetAtt": [
+          "lambdaAWSLoader",
+          "Arn"
+        ]
+      }
+    },
+    "SFDCExtractorFunction": {
+      "Value": {
+        "Fn::GetAtt": [
+          "lambdaSFDCExtractor",
+          "Arn"
+        ]
+      }
+    }
+  }
+}
