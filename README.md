@@ -61,3 +61,73 @@ The Stack and Data bucket must be in the same region as the Redshift cluster.
 + If your Lambda Loader functions need to access resources in a VPC 
 (e.g. your Redshift cluster is inside a VPC and not accessible on the Internet); manually edit the 
 VPC configuration to select the VPC and subnets. The execution role has the rights needed to execute in a VPC.
+
++ Setup a bucket-notification to notify the Lambda function.
+
+Set a variable to the LambdaLoaderFunction outputvalue from above.
+Create a JSON template for a bucket-notification to a Lambda function.
+Create the bucket notification.
+
+```bash
+export AWSLOADER="arn:aws:lambda:us-west-2:404268877227:function:lambdaAWSLoader"
+cat > notification.json <<EOF
+{
+    "LambdaFunctionConfigurations": [
+        {
+            "Filter": {
+                "Key": {
+                    "FilterRules": [
+                        {
+                            "Name": "Prefix",
+                            "Value": "staging/"
+                        },
+                        {
+                            "Name": "Suffix",
+                            "Value": "csv"
+                        }
+                    ]
+                }
+            },
+            "LambdaFunctionArn": "$AWSLOADER",
+            "Events": [
+                "s3:ObjectCreated:*"
+            ]
+        },
+        {
+            "Filter": {
+                "Key": {
+                    "FilterRules": [
+                        {
+                            "Name": "Prefix",
+                            "Value": "staging/"
+                        },
+                        {
+                            "Name": "Suffix",
+                            "Value": "csv.gz"
+                        }
+                    ]
+                }
+            },
+            "LambdaFunctionArn": "$AWSLOADER",
+            "Events": [
+                "s3:ObjectCreated:*"
+            ]
+        }
+   ]
+}
+EOF
+aws s3api put-bucket-notification-configuration --bucket $DATABUCKET --notification-configuration file://notification.json
+```
+
++ Close the aws-lambda-redshift-loader repository.
+```bash
+    git clone https://github.com/awslabs/aws-lambda-redshift-loader.git
+    cd aws-lambda-redshift-loader
+    npm install > /dev/null;
+```
++ Setup the table entries and configuration for aws-redshift-lambda-loader
+```bash
+    node setup.js 
+```
+
+
